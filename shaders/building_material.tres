@@ -1,0 +1,19 @@
+[gd_resource type="ShaderMaterial" load_steps=6 format=3]
+
+[ext_resource type="Shader" path="res://shaders/building.gdshader" id="1"]
+[ext_resource type="CompressedTexture2DArray" path="res://assets/textures/buildings/arrays/albedo_array.png" id="2"]
+[ext_resource type="CompressedTexture2DArray" path="res://assets/textures/buildings/arrays/normal_array.png" id="3"]
+[ext_resource type="CompressedTexture2DArray" path="res://assets/textures/buildings/arrays/orm_array.png" id="4"]
+[ext_resource type="CompressedTexture2DArray" path="res://assets/textures/buildings/arrays/emission_mask_array.png" id="5"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1")
+shader_parameter/albedo_array = ExtResource("2")
+shader_parameter/normal_array = ExtResource("3")
+shader_parameter/orm_array = ExtResource("4")
+shader_parameter/emission_mask_array = ExtResource("5")
+shader_parameter/far_start = 300.0
+shader_parameter/far_end = 400.0
+shader_parameter/grime_strength = 0.18
+shader_parameter/night_energy = 2.6

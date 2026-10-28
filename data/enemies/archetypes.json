@@ -1,0 +1,7 @@
+[
+  {"id": "thug", "health": 40, "damage": 9, "speed": 5.5, "attack_range": 2.2, "xp": 25, "block_front": false, "ranged": false, "windup_s": 0.55},
+  {"id": "brute", "health": 120, "damage": 18, "speed": 3.5, "attack_range": 2.6, "xp": 60, "block_front": false, "ranged": false, "windup_s": 0.8},
+  {"id": "gunner", "health": 35, "damage": 7, "speed": 4.5, "attack_range": 25.0, "xp": 35, "block_front": false, "ranged": true, "windup_s": 0.9},
+  {"id": "shield", "health": 70, "damage": 10, "speed": 4.0, "attack_range": 2.2, "xp": 45, "block_front": true, "ranged": false, "windup_s": 0.6},
+  {"id": "sniper", "health": 30, "damage": 22, "speed": 3.0, "attack_range": 60.0, "xp": 50, "block_front": false, "ranged": true, "windup_s": 1.8}
+]

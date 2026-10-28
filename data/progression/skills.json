@@ -1,0 +1,17 @@
+[
+  {"id": "swing_1", "name": "Swing Momentum I", "cost": 1, "requires": [], "effect": {"swing_speed": 1.1}},
+  {"id": "swing_2", "name": "Swing Momentum II", "cost": 2, "requires": ["swing_1"], "effect": {"swing_speed": 1.15}},
+  {"id": "zip_1", "name": "Quick Zip", "cost": 1, "requires": [], "effect": {"zip_speed": 1.2}},
+  {"id": "zip_2", "name": "Rocket Zip", "cost": 2, "requires": ["zip_1"], "effect": {"zip_speed": 1.2}},
+  {"id": "attack_damage", "name": "Heavy Hitter", "cost": 1, "requires": [], "effect": {"attack_damage": 1.25}},
+  {"id": "attack_damage_2", "name": "Brawler", "cost": 2, "requires": ["attack_damage"], "effect": {"attack_damage": 1.2}},
+  {"id": "health_1", "name": "Tough Skin", "cost": 1, "requires": [], "effect": {"max_health": 1.2}},
+  {"id": "health_2", "name": "Iron Body", "cost": 2, "requires": ["health_1"], "effect": {"max_health": 1.25}},
+  {"id": "focus_1", "name": "Focused Mind", "cost": 1, "requires": [], "effect": {"focus_gain": 1.25}},
+  {"id": "focus_2", "name": "Battle Flow", "cost": 2, "requires": ["focus_1", "attack_damage"], "effect": {"focus_gain": 1.25}},
+  {"id": "gadget_1", "name": "Tinkerer", "cost": 1, "requires": [], "effect": {"gadget_cooldown": 0.8}},
+  {"id": "gadget_2", "name": "Rapid Fabrication", "cost": 2, "requires": ["gadget_1"], "effect": {"gadget_cooldown": 0.8}},
+  {"id": "dodge_1", "name": "Spider Reflexes", "cost": 1, "requires": [], "effect": {"dodge_window": 1.3}},
+  {"id": "stealth_1", "name": "Silent Step", "cost": 1, "requires": [], "effect": {"stealth_radius": 0.75}},
+  {"id": "stealth_2", "name": "Shadow Walker", "cost": 2, "requires": ["stealth_1"], "effect": {"stealth_radius": 0.8}}
+]

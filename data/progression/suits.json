@@ -1,0 +1,5 @@
+[
+  {"id": "classic", "name": "Classic Suit", "primary": "#C8141E", "secondary": "#1A3A8C", "emblem": "#FFFFFF", "bonus": {"focus_gain": 1.1}},
+  {"id": "stealth", "name": "Stealth Suit", "primary": "#1C1C22", "secondary": "#3A3A44", "emblem": "#7FD8FF", "bonus": {"stealth_radius": 0.7}},
+  {"id": "iron", "name": "Iron Suit", "primary": "#B0141A", "secondary": "#D4A017", "emblem": "#FFD54A", "bonus": {"max_health": 1.25, "attack_damage": 1.1}}
+]

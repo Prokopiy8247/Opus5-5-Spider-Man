@@ -1,0 +1,41 @@
+# Godot cache and build outputs (*.import and *.uid stay tracked)
+.godot/
+build/
+*.pck
+*.exe
+*.zip
+*.dmg
+
+# IDE / agent data
+.sharrowkin/
+.vscode/
+.idea/
+
+# QA artifacts and machine logs (contain GPU/driver info)
+qa/evidence/
+qa/*.log
+qa/trav_dbg.txt
+
+# Private agent briefs (contain local user paths and session-log locations)
+PROMPT_*.md
+
+# Internal release audit notes
+docs/release/
+
+# Blender backups and Python caches
+*.blend1
+__pycache__/
+*.pyc
+
+# Secrets and signing material
+.env
+*.env
+*.pem
+*.key
+*.p12
+*.mobileprovision
+export_credentials.cfg
+
+# OS junk
+Thumbs.db
+.DS_Store

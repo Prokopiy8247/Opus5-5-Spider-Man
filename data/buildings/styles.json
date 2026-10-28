@@ -1,0 +1,18 @@
+{
+  "styles": [
+    {"id": 0, "name": "red_brick_tenement", "districts": ["residential", "midtown", "base"], "min_h": 0, "max_h": 70, "ground_types": [0, 1, 3]},
+    {"id": 1, "name": "tan_brick_prewar", "districts": ["residential", "midtown"], "min_h": 0, "max_h": 90, "ground_types": [0, 1, 2]},
+    {"id": 2, "name": "brownstone", "districts": ["residential"], "min_h": 0, "max_h": 60, "ground_types": [3]},
+    {"id": 3, "name": "artdeco_limestone", "districts": ["midtown", "downtown"], "min_h": 40, "max_h": 400, "ground_types": [2, 0]},
+    {"id": 4, "name": "glass_bluegreen", "districts": ["downtown", "midtown"], "min_h": 50, "max_h": 400, "ground_types": [5, 2]},
+    {"id": 5, "name": "glass_dark_steel", "districts": ["downtown", "midtown"], "min_h": 60, "max_h": 400, "ground_types": [5, 2]},
+    {"id": 6, "name": "brutalist_concrete", "districts": ["midtown", "downtown", "base"], "min_h": 0, "max_h": 200, "ground_types": [2, 1]},
+    {"id": 7, "name": "white_terracotta", "districts": ["midtown", "residential"], "min_h": 0, "max_h": 120, "ground_types": [0, 2]},
+    {"id": 8, "name": "midcentury_ribbon", "districts": ["midtown", "downtown"], "min_h": 30, "max_h": 160, "ground_types": [0, 5]},
+    {"id": 9, "name": "steel_glass_spandrel", "districts": ["downtown", "midtown"], "min_h": 50, "max_h": 400, "ground_types": [5, 2]},
+    {"id": 10, "name": "industrial_warehouse", "districts": ["waterfront", "base"], "min_h": 0, "max_h": 200, "ground_types": [4, 1]},
+    {"id": 11, "name": "mixed_podium_tower", "districts": ["downtown", "midtown"], "min_h": 40, "max_h": 400, "ground_types": [0, 5]},
+    {"id": 12, "name": "landmark_limestone", "districts": ["landmark"], "min_h": 0, "max_h": 400, "ground_types": [2]},
+    {"id": 13, "name": "bridge_masonry_steel", "districts": ["bridge"], "min_h": 0, "max_h": 400, "ground_types": [1]}
+  ]
+}
